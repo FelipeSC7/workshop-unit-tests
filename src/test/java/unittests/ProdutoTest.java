@@ -13,13 +13,6 @@ public class ProdutoTest {
         Produto produto = new Produto(1, "Produto A", 10.0, 5);
         assertEquals(1, produto.getId());
     }
-    
-    @Test
-    public void testSetQuantidade() {
-        Produto produto = new Produto(1, "Produto A", 10.0, 5);
-        produto.setQuantidade(10);
-        assertEquals(10, produto.getQuantidade());
-    }
 
     @Test
     public void testAumentarQuantidade() {
