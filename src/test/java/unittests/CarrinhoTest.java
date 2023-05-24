@@ -6,11 +6,13 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.ArrayList;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class CarrinhoTest {
 
     @Test
+    @DisplayName("Adicionar produto ao Carrinho")
     public void testAdicionarProdutoNoCarrinho() {
         Estoque estoque = new Estoque();
         Carrinho carrinho = new Carrinho();
