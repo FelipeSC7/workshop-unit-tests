@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import org.junit.jupiter.api.Test;
 
 public class EstoqueTest {
+
     @Test
     public void testAdicionarProduto() {
         Produto produto = new Produto(1, "Produto A", 10.0, 5);
